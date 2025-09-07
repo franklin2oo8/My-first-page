@@ -27,8 +27,17 @@ function enter(){
   else if (age<18){
     alert("too young to access must be 18 above");
   }
+  else if (age>80){
+    alert("too old to access must be 80 and below");
+  }
+  
+  
   else if (password!==confirmPassword){
     alert("password do not match");
+  }
+  else if (password.length<6){
+    alert("password must be at least 6 characters");
+    
   }
   else {out.innerHTML=" great you have been registered"
     window.location.href="frank2.html";

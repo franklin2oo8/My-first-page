@@ -1,0 +1,23 @@
+.link{
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  color: gold;
+}
+.pink{
+  color: pink;
+  background-color: black;
+}
+img{
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+  
+
+}
+button{
+  width: 250px;
+  padding: 5px;
+  margin: 50px;
+}
