@@ -1,94 +1,54 @@
-/* Light/Dark Mode Button */
-#color { 
-  color: red;
-  background-color: black;
-  padding: 6px 12px;
-  position: fixed;
-  top: 10px;
-  right: 10px;
-  z-index: 1000;
-  font-size: 14px;
-  border: none;
-  cursor: pointer;
+* {
+  box-sizing: border-box;
 }
-
-/* Italic Text */
-.italics {
-  font-style: italic;
+body {
+   font-size: 16px;
+   box-sizing: border-box;
+   margin-left: 120px;
 }
-
-/* Pink Text on Black Background */
-.pink {
+.pink{
   color: pink;
   background-color: black;
+  opacity: 0.6;
 }
-
-/* Navigation Links */
-nav a {
-  text-decoration: none;
-  font-size: 18px;
-  color: gold;
-  margin-right: 15px;
-}
-
-/* Navigation Bar */
-nav {
-  display: flex;
-  justify-content: space-between;
-  background-color: grey;
-  padding: 10px 20px;
+#color{
   position: fixed;
-  top: 50px;
-  width: 100%;
-  z-index: 999;
+  top: 0px;
+  background-color: blue;
+}
+#f{
+  background-color: blue;
+}
+#ul {
+  background-color: grey;
+  position: fixed;
+  width: 110px;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  overflow-x: auto;
+  list-style-type: none;
+  
+  
 }
 
-/* Body Padding */
-body {
-  padding: 120px 20px 20px 20px;
-  font-family: sans-serif;
+a{
+  text-decoration: none;
+  color: black;
 }
 
-/* Images */
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 20px 0;
+section{
+  background-color: blue;
+}
+ul .link{
+  background: blue ;
+  color: black;
+}
+#ul li{
+  border-bottom: 1px solid black;
+}
+a:hover{
+  background-color: red;
 }
 
-/* Button Styles */
-button {
-  width: 100%;
-  max-width: 250px;
-  padding: 10px;
-  margin-top: 20px;
-  font-size: 16px;
-  cursor: pointer;
-}
 
-/* Responsive Styling */
-@media screen and (max-width: 768px) {
-  nav {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  nav a {
-    margin: 5px 0;
-  }
-
-  #color {
-    font-size: 12px;
-    padding: 5px 10px;
-  }
-
-  h2 {
-    margin-top: 60px;
-    font-size: 20px;
-  }
-
-  body {
-    padding-top: 140px;
-  }
-}
