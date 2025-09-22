@@ -60,3 +60,12 @@ audio{
     width: 100%;
   }
 }
+footer{
+  background-color: black;
+  height: 50px;
+  max-width: 100%;
+  color: white;
+  font-size: 10px;
+  margin-top: 10px;
+  bottom:0px;
+}

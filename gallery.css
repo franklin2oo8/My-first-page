@@ -59,7 +59,7 @@ img{
 @media screen and (min-width:768px){
   
   body{
-    background-color: green;
+    background-color: ;
     display: inline;
     font-size: 43px;
     font-family: cursive;
@@ -77,7 +77,19 @@ img{
   button{
     margin-left: 600px;
   }
+  #color{
+    margin-left: 300px;
+  }
   span{
     margin-left: 600px;
   }
+}
+footer{
+  background-color: black;
+  height: 50px;
+  max-width: 100%;
+  color: white;
+  font-size: 10px;
+  margin-top: 10px;
+  bottom: 0px;
 }

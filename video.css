@@ -1,0 +1,47 @@
+ul{
+  list-style-type: none;
+  background: grey  ;
+}
+li a {
+  text-decoration: none;
+  background: grey ;
+  color: black;
+
+  
+}
+video{
+  margin-top: 40px;
+  max-width: 90%;
+  width: 90%;
+  height: 330px;
+}
+li a:hover{
+  background-color: red;
+}
+li a.link{
+  background-color: blue;
+}
+.pink{
+  background-color: black;
+  color: pink;
+}
+#color{
+  position: fixed;
+}
+footer{
+  background-color: black;
+  height: 50px;
+  max-width: 100%;
+  color: white;
+  font-size: 10px;
+  margin-top: 10px;
+  bottom: 0px;
+}
+input{
+  margin-top: 10px;
+  width: 223px;
+  height: 25px;
+}
+section{
+  border: black 1px solid ;
+}

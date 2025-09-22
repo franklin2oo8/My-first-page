@@ -52,3 +52,44 @@ function color(){
 }
 const h1 = document.getElementById("h1");
 h1.innerHTML = name + " Thanks for signing up"
+
+
+function add(){
+  let no1= parseFloat(document.getElementById("no1").value);
+  let no2= parseFloat(document.getElementById("no2").value);
+  let result=  document.getElementById("calcu");
+  result.innerHTML=no1 + no2;
+  
+}
+
+function subtract(){
+  let no1= parseFloat(document.getElementById("no1").value);
+  let no2= parseFloat(document.getElementById("no2").value);
+  let result=  document.getElementById("calcu");
+  result.innerHTML=no1 - no2;
+  
+}
+function multiply(){
+  let no1= parseFloat(document.getElementById("no1").value);
+  let no2= parseFloat(document.getElementById("no2").value);
+  let result=  document.getElementById("calcu");
+  result.innerHTML=no1 * no2;
+  
+}
+function divide(){
+  let no1= parseFloat(document.getElementById("no1").value);
+  let no2= parseFloat(document.getElementById("no2").value);
+  let result=  document.getElementById("calcu");
+  result.innerHTML=no1 / no2;
+  
+}
+function squareRoot(){
+  let spec=parseFloat(document.getElementById("spec").value);
+  let value = document.getElementById("val");
+  val.innerHTML= Math.sqrt(spec)
+}
+function cubeRoot(){
+  let spec=parseFloat(document.getElementById("spec").value);
+  let value = document.getElementById("val");
+  val.innerHTML= Math.cbrt(spec)
+}
