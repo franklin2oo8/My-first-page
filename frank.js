@@ -39,7 +39,7 @@ function enter(){
     alert("password must be at least 6 characters");
     
   }
-  else {out.innerHTML=" great you have been registered"
+  else {out.innerHTML=" great you have been "
     window.location.href="frank2.html";
   }
   
@@ -92,4 +92,19 @@ function cubeRoot(){
   let spec=parseFloat(document.getElementById("spec").value);
   let value = document.getElementById("val");
   val.innerHTML= Math.cbrt(spec)
+}
+function guess(){
+  const comp = Math.floor(Math.random()*4);
+let guessNumber = parseFloat(document.getElementById("guess").value);
+let p = document.getElementById("gap");
+ if(comp===guessNumber){
+   alert("correct the number is " +comp);
+ }
+else if (guessNumber>3 || guessNumber<0){
+  alert(" only numbers between 0 to 3")
+}
+
+ else {
+   alert("please retry the number is " + comp)
+ }
 }

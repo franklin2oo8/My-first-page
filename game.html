@@ -1,8 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <h1>
-    No content yet
-  </h1>
-  
-  
-</html>
+<head>
+  <meta name="viewport" charset="UTF-8" content="width = device-width" initial-scale =1.0>
+  <title>
+    GAME
+  </title>
+  <link rel="stylesheet" href="video.css">
+</head> 
+<body id="body" class="vy">
+  <button id="color" onclick="color()">light/darkmode</button> <br>
+  <ul>
+  <li><a href="frank2.html" class=> HOME</a> </li> 
+  <li><a href="gallery.html" class="" id="link"> IMAGES</a></li>
+    <li><a href="audio.html" class= id="audio"> AUDIO</a></li>
+        <li><a href="video.html" class="" id="video"> VIDEO</a></li>
+      <li> <a href="calc.html" class= id="calc"> CALCULATE</a> </li>      
+    <li><a href="game.html" class="link" id="game">GAME</a>
+    </li>
+    </ul>
+    <h2>GUESS D NUMBER</h2>
+    <div>
+      <span>From 0 to 3 Try GUESS the number the system is thinking of</span><br>
+      <input type="number" placeholder="guess number" id="guess"  max="4" required><br>
+      <p id="gap"></p><br>
+      <button onclick="guess()">GUESS</button>
+    </div>
+    <script src="frank.js"></script>
+    </body>
+    </html>
