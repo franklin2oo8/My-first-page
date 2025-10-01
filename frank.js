@@ -2,10 +2,12 @@ function enter(){
   let out= document.getElementById("out")
   
   let name= document.getElementById("name").value;
+  localStorage.setItem("username",document.getElementById("name").value +  " sign in successful")
   let age= document.getElementById("age").value;
   let regDate= document.getElementById("date").value;
   let password= document.getElementById("p1").value;
   let confirmPassword= document.getElementById("p2").value;
+  
   if (name===""){
     alert("enter name");
   }
@@ -39,8 +41,12 @@ function enter(){
     alert("password must be at least 6 characters");
     
   }
-  else {out.innerHTML=" great you have been "
+  else {
+    
+    out.innerHTML=" great you have been "
     window.location.href="frank2.html";
+    alert(localStorage.getItem("username"));
+    
   }
   
   
@@ -51,7 +57,7 @@ function color(){
   el.classList.toggle("pink")
 }
 const h1 = document.getElementById("h1");
-h1.innerHTML = name + " Thanks for signing up"
+h1.innerHTML = localStorage.getItem("username") + " Thanks for signing up"
 
 
 function add(){

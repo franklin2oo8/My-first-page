@@ -69,3 +69,34 @@ footer{
   margin-top: 10px;
   bottom:0px;
 }
+#h1{
+  animation: 15s linear infinite running myFirst;
+}
+@keyframes myFirst {
+  0%{
+    background-color: red;
+  }
+  20%{
+    background-color: orange;
+    transform: rotate(360deg);
+  }
+  40%{
+    background-color: yellow;
+    transform: rotate(360deg);
+  }
+  60%{
+    background-color: green;
+transform: rotate(360deg);
+  }
+  80%{
+    background-color: blue;
+transform: rotate(360deg);
+  }
+  90%{
+    background-color: indigo ;
+transform: rotate(360deg);
+  }
+  97%{
+    background-color: violet;
+  }
+}
