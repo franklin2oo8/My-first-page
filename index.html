@@ -1,36 +1,105 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta 
-    name="viewport"charset="UTF-8" content="width = device-width", initial-scale=1.0>
-    <title>frank
-    </title>
-    <link rel="stylesheet" href="Frank.css">
-    </head>
-    <body id="body">
-      <button id="color" onclick="color()">light/darkmode</button> 
-    <h2>welcome to frank site pls sign up</h2>
-    <br>
-    <h5> fill in data to register</h5>
-   <br>
-      Name: <input type="text" placeholder="enter your name here" id="name"><br><br>
-      Age:   <input type="number" placeholder="enter age" id="age">
-      <br><br>
-      Reg Date: <input type="date"id="date" min="2025-07-11" max="2025-09-25">
-      <br><br><label>
-      Enter Password: <input type="password" placeholder="enter password" id="p1">
-      </label>
-      <br><br><label>
-      Confirm Password:<input type="password" placeholder="confirm password" id="p2">
-      </label><br><br>
-      <button onclick="enter()" id="f">
-        Enter
-      </button>
-      <p id="out">
-        
-      </p>
-      <script src="frank.js">
-        </script>
-      </body>
-    
+    <meta name="viewport" charset="UTF-8" content="width=device-width" initial-scale = 1.0>
+    <link rel="stylesheet" href="firstPage.css">
+    <title>Frank Store</title>
+  </head>
+  <body>
+  <span id="discount">High discount items</span>
+  <br>
+  <section id="major">
+  <div>
+    <img src="Tecno.jpeg" alt="mobile phone"><br>
+    Tecno pop6 go<br><button onclick="tecno()">click to see description</button><br>
+    <button onclick="add1()" id="add1">€45 Add to cart</button>
+  </div>
+  <div>
+    <img src="Cups.jpeg" alt="Cups"><br>
+    plastic party utensil set<br><button onclick="cup()">click to see description</button><br>
+    <button onclick="add1()" id="add1">€7 Add to cart</button>
+  </div>
+  <div>
+    <img src="Iphone 17.jpeg" alt="Iphone 17"><br>
+    Iphone 17<br><button onclick="Iphone()">click to see description</button><br>
+    <button onclick="add1()" id="add1">€1885 Add to cart</button>
+  </div>
+  <div>
+    <img src="Clothes.jpeg" alt="Clothes"><br>
+    swagy up and down<br><button onclick="cloth()">click to see description</button><br>
+    <button onclick="add1()" id="add1">€15 Add to cart</button>
+  </div>
+  <div>
+    <img src="Airpod.jpeg" alt="Airpod"><br>
+    Airpod A3t<br><button onclick="air()">click to see description</button><br>
+    <button onclick="add1()" id="add1">€13 Add to cart</button>
+  </div>
+  <div>
+    <img src="Mini fan.jpeg" alt="portable mini fan"><br>
+    portable rechargeable mini fan<br><button onclick="fan()">click to see description</button><br>
+    <button onclick="add1()" id="add1">€22 Add to cart</button>
+  </div>
+  <div>
+    <img src="Blender.jpeg" alt="Electric Blender"><br>
+    Electric Blender<br><button onclick="blend()">click to see description</button><br>
+    <button onclick="add1()" id="add1">€65 Add to cart</button>
+  </div>
+  <div>
+    <img src="E-cook.jpeg" alt="Electric cooker"><br>
+    Electric cooker<br><button onclick="cook()">click to see description</a></button><br>
+    <button onclick="add1()" id="add1">€38 Add to cart</button>
+  </div>
+  <div>
+    <img src="Toy.jpeg" alt="kids toy"><br>
+    children toy car<br><button onclick="toy()">click to see description</button><br>
+    <button onclick="add1()" id="add1">€32 Add to cart</button>
+  </div>
+  <div>
+    <img src="Vase.jpeg" alt="Flower"><br>
+    Flower Vase<br><button onclick="vase()">click to see description</button><br>
+    <button onclick="add1()" id="add1">€15 Add to cart</button>
+  </div>
+  <div>
+    <img src="E-guitar.png" alt="Electric Guitar"><br>
+    Electric Guitar<br><button onclick="guitar()">click to see description</button><br>
+    <button onclick="add1()" id="add1">€55 Add to cart</button>
+  </div>
+  <div>
+    <img src="Plate set.jpeg" alt="plates and cup"><br>
+    Complete set cups and plate<br><button onclick="plate()">click to see description</button><br>
+    <button onclick="add1()" id="add1">€35 Add to cart</button>
+  </div>
+  <div>
+    <img src="Tv.jpeg" alt="television"><br>
+    15.6 inch LCD TV<br><button onclick="tv()">click to see description</button><br>
+    <button onclick="add1()" id="add1">€120 Add to cart</button>
+  </div>
+  <div>
+    <img src="S25.jpeg" alt=" samsung mobile phone "><br>
+    Samsung s25 ultra<br><button onclick="s25()">click to see description</button><br>
+    <button onclick="add1()" id="add1">€2100 Add to cart</button>
+  </div>
+  <div>
+    <img src="Lapi.jpeg" alt="Laptop"><br>
+    Hp Laptop<br><button onclick="lap()">click to see description</button><br>
+    <button onclick="add1()" id="add1">€500 Add to cart</button>
+  </div>
+  </section>
+  <section id="major">
+  <h3>Categories</h3><br>
+  
+  <div id="cat">
+  <a href="phones.html"><img src="Tecno.jpeg" id="icat"><h4>phones and laptops</h4>
+    </a></div>
+
+  <div id="cat">
+  <a href="kitchen.html"><img src="Blender.jpeg" id="icat"><h4>kitchen use</h4>  </a></div>
+<div id="cat">
+  <a href="living.html"><img src="Vase.jpeg" id="icat"><h4>living room use</h4>  </a></div>
+  <div id="cat">
+  <a href="other.html"><img src="Clothes.jpeg" id="icat"><h4>others</h4>  </a></div>
+  </section>
+  <script src="firstPage.js"></script>
+  </body>
 </html>
+
